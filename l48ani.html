@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ani Intro</title>
+        <style type="text/css">
+
+            body{
+                margin:0;
+            }
+            div{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                
+                animation-name: myani;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+            }
+/* 
+            @keyframes myani{
+                from{
+                    transform: translate(0,0);
+                }
+                to{
+                    transform: translate(1000px);
+                }
+            } */
+
+            @keyframes myani{
+                0%{
+                    transform: translate(200px);
+                }
+                100%{
+                    transform: translate(500px);
+                }
+            }
+
+        </style>
+    </head>
+    <body>  
+        <div>
+
+        </div>
+
+    </body>
+</html>
